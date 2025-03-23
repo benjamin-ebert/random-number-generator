@@ -10,8 +10,14 @@ Install to OS: `go install`
 
 ## Usage
 
-Run the program with two arguments specifying the minimum and maximum numbers:
+Run the program with optional arguments specifying the minimum and maximum numbers:
 
-`rng 2 9`
+`rng 1 4`
 
-`// 5`
+Output: `1` or `2` or `3` or `4`
+
+If no arguments are provided, it will generate a random number between 1 and 2:
+`rng`
+
+Output:
+`1` or `2`
